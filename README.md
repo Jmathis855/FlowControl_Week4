@@ -12,7 +12,7 @@ else
   <DO_THING_2>
 fi
 ```
-
+  fi is either finish or just if backwards. You don't need to have an else! Can just be if
 There are lots of different ways to compare values, depending on what type of values you're working with. Here is a page that lists several options: [Bash comparison operators](http://tldp.org/LDP/abs/html/comparison-ops.html). Here's one example:
 
 ```
@@ -119,6 +119,9 @@ done
 Let's break this down. First, we've defined a new variabled named `num`. This variable can be named anything you want. In this case, `num` will iteratively take the value of anything included in the list that follows `in`. During each iteration, the code in between `do` and `done` will be executed. In this case, we will simply print out each of the values our variable takes, one after the other. Later, we will use `for` loops that have a whole series of commands inside the loop.
 
 ```
+
+i is a common placeholder just for number
+infinite loops are possible if you did like i=1;i>0;i++. Ctrl c is your savior if this happens!
 Practice Exercise 2 (for loop)
 
 Write a for loop inside a script that follows these steps:
